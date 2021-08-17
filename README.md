@@ -1,4 +1,4 @@
-<h1>Ksquare Bot New</h1>
+<h1>Ksquare Bot</h1>
 
 This is one of my old Projects. Haven't really worked on it for a while.
 
