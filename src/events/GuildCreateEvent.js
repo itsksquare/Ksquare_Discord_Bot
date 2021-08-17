@@ -11,8 +11,8 @@ module.exports = class GuildCreateEvent extends BaseEvent {
   async run(client, guild) {
     try {
       const guildCreateWH = new WebhookClient(
-        "751687889661984770",
-        "uQzVpQks86dLnek00RO8IUb00zZ_coAQbjGD_7bs3MEA6zBQDhrytcy1ZKd078zpkF-o"
+        client.config.WHid,
+        client.config.WHtoken
       );
       guildCreateWH.send(" ", {
         embeds: [

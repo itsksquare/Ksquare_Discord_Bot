@@ -10,8 +10,8 @@ module.exports = class ErrorEvent extends BaseEvent {
   async run(client, error) {
     try {
       const errWH = new WebhookClient(
-        "751676726928736266",
-        "0Ek5TM1g59xUEa4PM-o3aa2wiJbO6xQVUrdQvz3_MkCJlvvA82RNuU0HrkANQk0HRPY_"
+        client.config.WHid,
+        client.config.WHtoken
       );
       errWH.send(`<@${client.owner}>`, {
         embeds: [

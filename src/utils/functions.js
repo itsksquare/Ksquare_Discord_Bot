@@ -2,10 +2,7 @@ const { WebhookClient } = require("discord.js");
 
 module.exports = (client) => {
   client.oncommandused = async (command, author, channel, guild) => {
-    const cmdWH = new WebhookClient(
-      "751448331292508310",
-      "z9MOBeJKhKl9lYFHJ-8hBpZE94OMkKeOA5gv9Yz6wgnBW1CNNLDlUgfeP6Omx2AE9mlQ"
-    );
+    const cmdWH = new WebhookClient(client.config.WHid, client.config.WHtoken);
     cmdWH.send(
       `**Commmand Used: \`${command}\`\nIn Channel: \`${channel.name}\`\nIn: \`${guild.name}\`\nBy: \`${author.username}, ${author.id}\`**`
     );
@@ -13,8 +10,8 @@ module.exports = (client) => {
 
   client.oneventerror = async (error, evntname) => {
     const evnterrWH = new WebhookClient(
-      "751448773296914444",
-      "3PJOD5pGXBFqz-EKDP6LTlUUzflIFmc7YKKTz00kZRkCIgxqurVXcJOpD8Q1aWL_Dt1I"
+      client.config.WHid,
+      client.config.WHtoken
     );
     evnterrWH.send(`<@${client.owner}>`, {
       embeds: [
@@ -35,10 +32,7 @@ module.exports = (client) => {
           "I have encountered an error. This has been reported to the developer and will be solved soon. Thank You for your co-operation.",
       },
     });
-    const errWH = new WebhookClient(
-      "751448570888060929",
-      "VQgURdqRbzH1r_Ty7xW1rnY9UScUI4jghg0ELEPriFHPD57RAFHAN4MwWirbZR69Clv2"
-    );
+    const errWH = new WebhookClient(client.Config.WHid, client.Config.WHtoken);
     errWH.send(`<@${client.owner}>`, {
       embeds: [
         {

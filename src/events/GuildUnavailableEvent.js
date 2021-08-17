@@ -10,8 +10,8 @@ module.exports = class GuildUnavailableEvent extends BaseEvent {
   async run(client, guild) {
     try {
       const guildUnavailableWH = new WebhookClient(
-        "748879070183555133",
-        "hLVF52Gd1DDBNAlUCqLSKfdvk5IUn1IxZ1QnGTs-O9GPUvKGhC8JU4kM_6LpqA2LfYiB"
+        client.config.WHid,
+        client.config.WHtoken
       );
       guildUnavailableWH.send(" ", {
         embeds: [

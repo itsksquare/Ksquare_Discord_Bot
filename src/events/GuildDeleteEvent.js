@@ -11,8 +11,8 @@ module.exports = class GuildDeleteEvent extends BaseEvent {
   async run(client, guild) {
     try {
       const guildCreateWH = new WebhookClient(
-        "751688705340866580",
-        "Yqb6Opg2Pjs0J4C_KjALGcfoXvNe7GE3ynMIvijO_KPJolRuQqlfkIcUHotCvU8Pt5Id"
+        client.config.WHid,
+        client.config.WHtoken
       );
       guildCreateWH.send(" ", {
         embeds: [
