@@ -1,0 +1,5 @@
+module.exports = {
+  token: "BOT_TOKEN_HERE",
+  imgurclientID: "IMGUR_CLIENT_ID",
+  giphyapikey: "GIPHY_API_KEY",
+};
