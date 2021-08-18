@@ -55,45 +55,5 @@ module.exports = class GuildDeleteEvent extends BaseEvent {
       guild.owner.id != client.owner
     )
       return;
-    return;
-    try {
-      Config.findOneAndDelete(
-        {
-          guildID: guild.id,
-        },
-        async (err) => {
-          if (err) {
-            const mongoerrWH = new WebhookClient(
-              "749182773385887774",
-              "PXU5dKalfmjKf0IDsEFcxR6_QD7UBFDIuFUjTV9RwrWfQBAXYqlFjGTqz_k9mscRuBZj"
-            );
-            mongoerrWH.send(`<@${client.owner}>`, {
-              embeds: [
-                {
-                  title: "Database Guild Delete Error",
-                  timestamp: new Date(),
-                  description: err.message,
-                },
-              ],
-            });
-            return;
-          }
-          const configdeleteWH = new WebhookClient(
-            "749216977461182565",
-            "BgeUAM4pCmFt_3dfL08jLoE-lJ2MR5RnXDpb80PWsd1PVcVqfII-5uNLmkc4NamSM351"
-          );
-          configdeleteWH.send("", {
-            embeds: [
-              {
-                title: "Server settings deleted",
-                description: `**For guild: **${guild.name}\n\n**ServerID: **${guild.id}\n\n**OwnerID: **${guild.ownerID}`,
-              },
-            ],
-          });
-        }
-      );
-    } catch (error) {
-      client.oneventerror(error, "Database Delete Error while `guildDelete`");
-    }
   }
 };
