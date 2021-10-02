@@ -2,34 +2,24 @@
 
 An all-in one discord bot for fun, moderation, music(soon), and more.
 
-### Table of contents
+## Table of contents
 
 [Requirements](#requirements)
 [Getting Started](#getting-started)
 
-### Requirements
+## Requirements
 
 - [Node](https://nodejs.org/en/)
 - [NPM](https://www.npmjs.com/)
 - [Discord Application](https://discord.com/developers/applications)
 
-### Getting Started
+## Contributing
 
-#### Installation
+### Setup development environment
 
-```bash
-# clone the repository
-git clone https://github.com/itsksquare/Ksquare-Discord-Bot.git
+<br>
 
-# cd into the folder
-cd Ksquare-Discord-Bot
-
-# install dependencies
-npm install
-
-```
-
-#### Configuring the bot
+#### Discord developer portal
 
 - Head over to [Discord Developer Portal](https://discord.com/developers/applications)
 - Click on the button "New Application", give it a name and click create
@@ -49,7 +39,37 @@ npm install
 - Login again to your discord account if prompted
 - Select your server and click "Authorize"
 
-#### Starting the bot for the first time
+<br>
+
+### Managing code branches
+
+<br>
+
+**1.** Clone repository
+
+```
+git clone https://github.com/itsksquare/Ksquare-Discord-Bot
+```
+
+**2.** Navigate to project folder
+
+```
+cd Ksquare-Discord-Bot
+```
+
+**3.** Create new branch
+
+```
+git checkout -b <insert_branch_name>
+```
+
+**4.** Turn on chage tracking and begin coding!
+
+```
+git add .
+```
+
+**5.** Start debugging
 
 ```bash
 # run the following command in the terminal to start the bot
@@ -58,7 +78,18 @@ node ./src/bot.js
 npm start
 # or if you have nodemon installed, run:
 npm run dev
-
-# output should be similar to:
-# Test Bot 1#1005 is now online in 1 servers with 1 users !
 ```
+
+**6.** Commit changes once you are finished
+
+```
+git commit -m "Commit message"
+```
+
+**7.** Push changes to remote repository
+
+```
+git push -u origin <insert_branch_name>
+```
+
+**8.** Head to [GitHub](https://github.com/itsksquare/Ksquare-Discord-Bot/pulls) to make pull request
