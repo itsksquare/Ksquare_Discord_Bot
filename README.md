@@ -6,7 +6,7 @@ An all-in one discord bot for fun, moderation, music(soon), and more.
 
 [Requirements](#requirements)
 
-[Contributing](#Contributing)
+[Contributing](#contributing)
 
 <hr>
 
@@ -21,8 +21,6 @@ An all-in one discord bot for fun, moderation, music(soon), and more.
 ## Contributing
 
 ### Setup development environment
-
-<br>
 
 #### Discord developer portal
 
@@ -44,11 +42,7 @@ An all-in one discord bot for fun, moderation, music(soon), and more.
 - Login again to your discord account if prompted
 - Select your server and click "Authorize"
 
-<br>
-
 ### Managing code branches
-
-<br>
 
 **1.** Clone repository
 
