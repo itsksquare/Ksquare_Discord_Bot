@@ -5,13 +5,18 @@ An all-in one discord bot for fun, moderation, music(soon), and more.
 ## Table of contents
 
 [Requirements](#requirements)
-[Getting Started](#getting-started)
+
+[Contributing](#Contributing)
+
+<hr>
 
 ## Requirements
 
 - [Node](https://nodejs.org/en/)
 - [NPM](https://www.npmjs.com/)
 - [Discord Application](https://discord.com/developers/applications)
+
+<hr>
 
 ## Contributing
 
