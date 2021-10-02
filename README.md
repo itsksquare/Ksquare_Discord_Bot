@@ -8,7 +8,6 @@ An all-in one discord bot for fun, moderation, music(soon), and more.
 
 [Contributing](#contributing)
 
-<hr>
 
 ## Requirements
 
@@ -16,7 +15,6 @@ An all-in one discord bot for fun, moderation, music(soon), and more.
 - [NPM](https://www.npmjs.com/)
 - [Discord Application](https://discord.com/developers/applications)
 
-<hr>
 
 ## Contributing
 
