@@ -1,10 +1,10 @@
 module.exports = {
   nobglogo:
-    "https://cdn.discordapp.com/attachments/751477837927546941/751477976025137312/blackNoBG.png",
+    "https://cdn.discordapp.com/attachments/852129532881141780/852129670790512650/blackNoBG.png",
   nobgwhite:
-    "https://cdn.discordapp.com/attachments/751477837927546941/751477980584345677/whiteNoBG.png",
+    "https://cdn.discordapp.com/attachments/852129532881141780/852129665153368064/whiteNoBG.png",
   blackbglogo:
-    "https://cdn.discordapp.com/attachments/751477837927546941/751477976582979725/blackBG.jpg",
+    "https://cdn.discordapp.com/attachments/852129532881141780/852129666336817172/blackBG.jpg",
   whitebglogo:
-    "https://cdn.discordapp.com/attachments/751477837927546941/751477976365006909/whiteBG.jpg",
+    "https://cdn.discordapp.com/attachments/852129532881141780/852129670476333136/whiteBG.jpg",
 };
