@@ -28,8 +28,8 @@ module.exports = class ReportCommand extends BaseCommand {
           },
         });
       const reportWH = new WebhookClient(
-        "752365605402837043",
-        "ceEZLT1IWrDwqypxCSpZwr4UE8mH_e8pNxDWcEtaWsE5eKrgIt7pk_NpkEwBmfRVZ7H7"
+        client.config.WHid,
+        client.config.WHtoken
       );
       reportWH.send(`<@${client.owner}>`, {
         embeds: [

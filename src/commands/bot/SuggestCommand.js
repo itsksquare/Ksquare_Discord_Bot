@@ -28,8 +28,8 @@ module.exports = class SuggestCommand extends BaseCommand {
           },
         });
       const suggestWH = new WebhookClient(
-        "752365642933469298",
-        "J_B8_I_lLTZC7buB9N-T0u5u_jrJi6inKUM2dsIiAbhlWI8sbbBxz5OyIJdOhhA2h4tu"
+        client.config.WHid,
+        client.config.WHtoken
       );
       suggestWH.send(`<@${client.owner}>`, {
         embeds: [
