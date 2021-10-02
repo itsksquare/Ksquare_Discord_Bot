@@ -2,36 +2,25 @@
 
 An all-in one discord bot for fun, moderation, music(soon), and more.
 
-### Table of contents
+## Table of contents
 
 [Requirements](#requirements)
-[Getting Started](#getting-started)
 
-### Requirements
+[Contributing](#contributing)
+
+
+## Requirements
 
 - [Node](https://nodejs.org/en/)
 - [NPM](https://www.npmjs.com/)
 - [Discord Application](https://discord.com/developers/applications)
 
-### Getting Started
 
-#### Installation
+## Contributing
 
-```bash
-# clone the repository
-git clone https://github.com/itsksquare/Ksquare-Discord-Bot.git
+### Setup development environment
 
-# cd into the folder
-cd Ksquare-Discord-Bot
-
-# install dependencies
-npm install
-
-```
-
-![image](https://user-images.githubusercontent.com/66553902/135720086-172a8052-9af2-4c52-91f1-365d0a7e2afc.png)
-
-#### Configuring the bot
+#### Discord developer portal
 
 - Head over to [Discord Developer Portal](https://discord.com/developers/applications)
 ![image](https://user-images.githubusercontent.com/66553902/135720513-624616d8-0687-4fd9-999c-a13d80335c0e.png)
@@ -82,7 +71,33 @@ npm install
 ![image](https://user-images.githubusercontent.com/66553902/135722219-3db5e01c-e707-47e4-9f15-15bba408788d.png)
 
 
-#### Starting the bot for the first time
+### Managing code branches
+
+**1.** Clone repository
+
+```
+git clone https://github.com/itsksquare/Ksquare-Discord-Bot
+```
+
+**2.** Navigate to project folder
+
+```
+cd Ksquare-Discord-Bot
+```
+
+**3.** Create new branch
+
+```
+git checkout -b <insert_branch_name>
+```
+
+**4.** Turn on chage tracking and begin coding!
+
+```
+git add .
+```
+
+**5.** Start debugging
 
 ```bash
 # run the following command in the terminal to start the bot
@@ -91,10 +106,18 @@ node ./src/bot.js
 npm start
 # or if you have nodemon installed, run:
 npm run dev
-
-# output should be similar to:
-# Test Bot 1#1005 is now online in 1 servers with 1 users !
 ```
-![image](https://user-images.githubusercontent.com/66553902/135722639-dfe4af64-11f0-4dbc-a56f-4a91b5b8934b.png)
 
-Congrats 🎉
+**6.** Commit changes once you are finished
+
+```
+git commit -m "Commit message"
+```
+
+**7.** Push changes to remote repository
+
+```
+git push -u origin <insert_branch_name>
+```
+
+**8.** Head to [GitHub](https://github.com/itsksquare/Ksquare-Discord-Bot/pulls) to make pull request
