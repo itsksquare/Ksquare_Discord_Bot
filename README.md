@@ -27,15 +27,15 @@ An all-in one discord bot for fun, moderation, music(soon), and more.
 
 
 - Click on the button "New Application", give it a name and click create
-![image](https://user-images.githubusercontent.com/66553902/135720672-5f806a66-154e-4940-bc92-f8798dda2631.png)
+![image](https://user-images.githubusercontent.com/66553902/135741374-3092ae21-724e-4114-8f20-f43747854850.png)
 
 
 - Click on the tab labelled "Bot", click on the button "Add Bot"
-![image](https://user-images.githubusercontent.com/66553902/135720975-361dc2e5-0cd3-4dd0-85ab-dd54a8262889.png)
+![image](https://user-images.githubusercontent.com/66553902/135741376-0d6f8946-9205-4059-9299-9c8ad9c48fa6.png)
 
 
 - Under "Token", click on the button labelled "Copy" to copy the bot token
-![image](https://user-images.githubusercontent.com/66553902/135720998-6f919dd0-2cef-49fc-94ba-e8db76403c47.png)
+![image](https://user-images.githubusercontent.com/66553902/135741382-12c4ca70-5a38-409a-9518-dfe40f365d37.png)
 
 - Open file named configexample.js and paste the bot token in the variable "token"
 ![image](https://user-images.githubusercontent.com/66553902/135721301-d8097ab7-2f10-42ea-8dec-16528a7b6894.png)
@@ -44,10 +44,10 @@ An all-in one discord bot for fun, moderation, music(soon), and more.
 ![image](https://user-images.githubusercontent.com/66553902/135721398-891e1093-015b-4eeb-b05d-3571aca157ac.png)
 
 - Follow the intructions in the file to create a webhook
-![image](https://user-images.githubusercontent.com/66553902/135721635-cc4cc395-4653-45f6-b4bf-f5bc3e868471.png)
+![image](https://user-images.githubusercontent.com/66553902/135741402-506e2fb9-2c4f-405c-8e55-cb8a831b7aa2.png)
 ![image](https://user-images.githubusercontent.com/66553902/135722789-305411d1-6c4e-4a77-8038-03799199f3f6.png)
 
-
+<hr>
 
 #### Adding the bot to your server
 
@@ -58,17 +58,18 @@ An all-in one discord bot for fun, moderation, music(soon), and more.
 ![image](https://user-images.githubusercontent.com/66553902/135721958-85336829-6bf4-4da6-ba14-1acefb30ecb8.png)
 
 - Click on the tab labelled "OAuth2"
-![image](https://user-images.githubusercontent.com/66553902/135721979-2531748e-ab45-4725-90fc-ca5c922a8f17.png)
+![image](https://user-images.githubusercontent.com/66553902/135742140-48336f01-b23a-4dea-8c88-6fb4b6285c85.png)
 
 - Under "Scopes", check the box next to "bot"
-![image](https://user-images.githubusercontent.com/66553902/135722006-c2f14d3c-88aa-4335-93cb-a227120ee453.png)
+![image](https://user-images.githubusercontent.com/66553902/135742145-b2c7902f-d908-443c-b51b-118eb1c3b5c6.png)
 
 - Copy and paste the link that appears in a new tab
 - Login again to your discord account if prompted
-![image](https://user-images.githubusercontent.com/66553902/135722137-ac8eb1f2-e5bc-40cb-8bf8-c8db20c56f6a.png)
+![image](https://user-images.githubusercontent.com/66553902/135742159-c39b5bac-5088-482a-926d-44588f674086.png)
 
 - Select your server and click "Authorize"
-![image](https://user-images.githubusercontent.com/66553902/135722219-3db5e01c-e707-47e4-9f15-15bba408788d.png)
+![image](https://user-images.githubusercontent.com/66553902/135742178-973ddc64-eaf4-41a4-adbe-1f68d2eda219.png)
+![image](https://user-images.githubusercontent.com/66553902/135742183-eca7d32d-b748-460a-82bc-b4d048f4d983.png)
 
 
 ### Managing code branches
