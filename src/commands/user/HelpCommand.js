@@ -25,27 +25,31 @@ module.exports = class HelpCommand extends BaseCommand {
             url: client.logo.nobglogo,
           },
           title: "KSQUARE Help",
-          description: stripIndents`Hey ${message.author}, I noticed you needed some help. Here are all the links that will help you know more about me and make it a lot easier for you to use me.
-          And Thank You for using KSQUARE.`,
+          description: stripIndents`Hey ${message.author}, I noticed you needed some help. Here are all the commands I can perform.
+          My prefix for this server is \`${client.prefix}\``,
           fields: [
             {
-              name: "Complete Command Guide",
-              value: "[Click Here]()",
+              name: "Moderation",
+              value: "`ban` `kick` `nickname`",
+            },
+            {
+              name: "Fun",
+              value:
+                "`advice` `blocktext` `fact` `flip` `imgur` `joke` `leet` `magic8ball` `morsecode` `reverse` `roll` `scramble` `tapcode` `yomomma` `meme` `cuddle` `feed` `hug` `kiss` `pat` `poke` `slap` `smug` `tickle` `insta`",
+            },
+            {
+              name: "Information",
+              value:
+                "`avatar` `about` `serverinfo` `whois` `invite` `ping` `report` `suggest` `uptime`",
+            },
+            {
+              name: "Support Server",
+              value: "[Click to Join]()",
               inline: true,
             },
             {
               name: "Website",
               value: "[Click Here]()",
-              inline: true,
-            },
-            {
-              name: "Support Server",
-              value: "[Click to join](https://discord.gg/Cjwgkxp)",
-              inline: true,
-            },
-            {
-              name: "Voting Links",
-              value: "Soon",
               inline: true,
             },
           ],
