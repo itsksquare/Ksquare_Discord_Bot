@@ -52,7 +52,7 @@ An all-in one discord bot for fun, moderation, music(soon), and more.
 #### Adding the bot to your server
 
 - Head over to [Discord Developer Portal](https://discord.com/developers/applications)
-![image](https://user-images.githubusercontent.com/66553902/135721923-ae22cf6e-317a-4f06-921e-65b382b6ca98.png)
+![image](https://user-images.githubusercontent.com/66553902/135742228-1f4c9670-0909-4c5a-ac46-a0785e4bd1a1.png)
 
 - Open the application you created earlier
 ![image](https://user-images.githubusercontent.com/66553902/135721958-85336829-6bf4-4da6-ba14-1acefb30ecb8.png)
